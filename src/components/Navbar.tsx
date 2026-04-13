@@ -1,6 +1,6 @@
   import { motion } from "motion/react";
 import { ShoppingBag, Search, Menu, User } from "lucide-react";
-
+import logo from '../assets/images/sh_logo.png';
 export default function Navbar() {
   return (
     <motion.nav 
@@ -21,9 +21,9 @@ export default function Navbar() {
       </div>
 
       <div className="absolute left-1/2 -translate-x-1/2 flex flex-col items-center">
-        <span className="font-serif text-2xl tracking-[0.1em] gold-gradient font-semibold">S&H</span>
-        <span className="text-[8px] uppercase tracking-[0.4em] text-gold-light/80 -mt-1">Boutique</span>
-        {/* <img src="/sh_logo.png" alt="" srcset="" width="80px" /> */}
+        {/* <span className="font-serif text-2xl tracking-[0.1em] gold-gradient font-semibold">S&H</span>
+        <span className="text-[8px] uppercase tracking-[0.4em] text-gold-light/80 -mt-1">Boutique</span> */}
+        <img src={logo} alt="" srcset="" width="80px" />
 
       </div>
 
