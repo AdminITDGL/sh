@@ -21,7 +21,7 @@ export default function Navbar() {
       </div>
 
       <div className="absolute left-1/2 -translate-x-1/2 flex flex-col items-center">
-        <img src="sh_logo.png" alt="" srcset="" width="80px" />
+        <img src="/sh_logo.png" alt="" srcset="" width="80px" />
       </div>
 
       <div className="flex items-center gap-6">
